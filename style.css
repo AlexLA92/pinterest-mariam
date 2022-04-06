@@ -1,1 +1,118 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Poppins'
+}
+
+body {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 34px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 52px;
+  align-items: center;
+  margin-bottom: 8px;
+  position: sticky; 
+  top: 0;
+  padding-top: 44px;
+  background-color: white;
+}
+
+header #logo {
+  height: 32px;
+  width: 32px;
+  padding-left: 8px ;
+}
+
+header #notification {
+  height: 24px;
+  width: 24px;
+  padding-right: 8px ;
+}
+
+section.carousel-container {
+  display: flex;
+  flex-direction: row;
+  height: 126px;
+  width: calc(100vw - 32px);
+  overflow-x: scroll;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  height: 102px;
+  margin: 8px;
+}
+
+.story img{
+  width:78px;
+}
+
+section.feed-container img {
+  width: 171px;
+}
+
+section .column {
+  display: flex;
+  flex-direction: column;
+  width: 171px;
+  align-items: center;
+  justify-content: right;
+}
+
+section.feed-container img {
+  width: 171px;
+  padding-bottom: 8px;
+}
+
+section.feed-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section .col1 {
+  padding-right: 8px;
+}
+section .col2 {
+  padding-left: 8px;
+}
+
+
+nav #logo-nav {
+  height: 32px;
+  width: 32px;
+  padding-left: 8px ;
+}
+
+nav #notification-nav {
+  height: 24px;
+  width: 24px;
+  padding-right: 8px ;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 52px;
+  align-items: center;
+  margin-bottom: 8px;
+  position: sticky; 
+  bottom: 0;
+  padding-top: 44px;
+  background-color: white;
+}
