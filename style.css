@@ -98,15 +98,25 @@ section .col2 {
 }
 
 .nav-button.add {
-  padding-bottom: 15% ;
   width: 70px;
   height: 70px;
+  position: relative;
+  bottom:50%;
+}
+
+.nav-container {
+  width: 90%;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: right;
   height: 52px;
   align-items: center;
   position: sticky; 
