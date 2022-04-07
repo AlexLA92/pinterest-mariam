@@ -9,7 +9,6 @@
 body {
   margin-left: 16px;
   margin-right: 16px;
-  margin-bottom: 34px;
   display: flex;
   flex-direction: column;
 }
@@ -68,17 +67,18 @@ section.feed-container img {
 section .column {
   display: flex;
   flex-direction: column;
-  width: 171px;
+  width: 50%;
   align-items: center;
   justify-content: right;
 }
 
 section.feed-container img {
-  width: 171px;
+  width: 100%;
   padding-bottom: 8px;
 }
 
 section.feed-container {
+  width: calc(100vw - 32px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -92,16 +92,15 @@ section .col2 {
 }
 
 
-nav #logo-nav {
-  height: 32px;
-  width: 32px;
-  padding-left: 8px ;
+.nav-button {
+  height: 40px;
+  width: 40px;
 }
 
-nav #notification-nav {
-  height: 24px;
-  width: 24px;
-  padding-right: 8px ;
+.nav-button.add {
+  padding-bottom: 15% ;
+  width: 70px;
+  height: 70px;
 }
 
 nav{
@@ -110,9 +109,9 @@ nav{
   justify-content: space-between;
   height: 52px;
   align-items: center;
-  margin-bottom: 8px;
   position: sticky; 
   bottom: 0;
-  padding-top: 44px;
+  padding-top: 8px;
   background-color: white;
+  padding-bottom: 42px;
 }
